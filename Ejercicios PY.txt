@@ -1,0 +1,83 @@
+EJERCICIO 1 PYTHON
+try:
+    A = int(input("Ingrese el primer número (A): "))  #Tipo de dato: int
+    B = int(input("Ingrese el segundo número (B): ")) #Tipo de dato: int
+    C = int(input("Ingrese el tercer número (C): "))  #Tipo de dato: int
+    D = int(input("Ingrese el cuarto número (D): "))  #Tipo de dato: int
+    S = A + B + C + D
+    print("La sumatoria es:", S)                      #Tipo de dato: int
+except ValueError:
+    print("Usted introdujo mal un dato")
+
+EJERCICIO 2 PYTHON
+try:
+    A = int(input("Ingrese el primer número (A): "))    #Tipo de dato: int
+    B = int(input("Ingrese el segundo número (B): "))   #Tipo de dato: int
+    C = int(input("Ingrese el tercer número (C): "))    #Tipo de dato: int
+    D = int(input("Ingrese el cuarto número (D): "))    #Tipo de dato: int
+    S = A + B + C + D
+    P = S / 4
+    print("El promedio es:", P)                         #Tipo de dato: float
+except ValueError:
+    print("Usted introdujo mal un dato")
+
+EJERCICIO 4 PYTHON
+try:
+    N1 = int(input("Ingrese la primer nota: "))     #Tipo de dato: int
+    N2 = int(input("Ingrese la segunda nota: "))    #Tipo de dato: int
+    N3 = int(input("Ingrese la tercera nota: "))    #Tipo de dato: int
+    S = N1 + N2 + N3
+    P = S / 3
+    print("El promedio del estudiante es:", P)      #Tipo de dato: float
+except ValueError:
+    print("Usted introdujo mal un dato")
+
+EJERCICIO 5
+ESTA EN CADA CODIGO ES EL COMENTARIO HECHO CON #
+
+EJERCICIO 6
+try:
+    Suel1 = int(input("Sueldo 1: "))
+    Suel2 = int(input("Sueldo 2: "))
+    Suel3 = int(input("Sueldo 3: "))
+    print()
+    Porc1 = int(input("Descuento 1: "))
+    Porc2 = int(input("Descuento 2: "))
+    Porc3 = int(input("Descuento 3: "))
+    Neto1 = Suel1 - (Suel1 * Porc1 / 100)
+    Neto2 = Suel2 - (Suel2 * Porc2 / 100)
+    Neto3 = Suel3 - (Suel3 * Porc3 / 100)
+    print()
+    print("Sueldo Neto 1:", Neto1)
+    print("Sueldo Neto 2:", Neto2)
+    print("Sueldo Neto 3:", Neto3)
+except ValueError:
+    print("Usted introdujo mal un dato")
+
+EJERCICIO 7
+try:
+    N1 = input("Ingrese el primer nombre: ")
+    N2 = input("Ingrese el segundo nombre: ")
+    print()
+    L1 = len(N1)
+    L2 = len(N2)
+    print("La longitud del primer nombre es:", L1)
+    print("La longitud del segundo nombre es:", L2)
+except ValueError:
+    print("Usted introdujo mal un dato")
+
+EJERCICIO 9
+try:
+    Inv1 = int(input("Inversión de la persona 1: "))
+    Inv2 = int(input("Inversión de la persona 2: "))
+    Inv3 = int(input("Inversión de la persona 3: "))
+    print()
+    Total = Inv1 + Inv2 + Inv3
+    P1 = (Inv1 / Total) * 100
+    P2 = (Inv2 / Total) * 100
+    P3 = (Inv3 / Total) * 100
+    print("El porcentaje del Socio 1 es:", P1)
+    print("El porcentaje del Socio 2 es:", P2)
+    print("El porcentaje del Socio 3 es:", P3)
+except ValueError:
+    print("Usted introdujo mal un dato")
